@@ -1,0 +1,26 @@
+body {
+  background-color: #CDF0EA;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 5px;
+  border-color: grey;
+
+}
+h1 {
+color: green;
+text-align: left;
+}
+h3{
+  color:green;
+}
+
+.new {
+  border-color: red;
+}
+
+#old {
+  border-color: green;
+}
