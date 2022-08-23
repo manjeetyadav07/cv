@@ -1,26 +1,149 @@
-body {
-  background-color: #CDF0EA;
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: "Montserrat", sans-serif;
+  color:#11999E;
+
+}
+
+p{
+  line-height: 2;
 }
 
 hr {
-  border-style: dotted none none;
-  width: 5%;
-  border-width: 5px;
-  border-color: grey;
-
-}
-h1 {
-color: green;
-text-align: left;
-}
-h3{
-  color:green;
+  margin: 7rem auto 7rem auto;
+  width:4%;
+  border-style: dotted;
+  border-top: 0;
+  border-width: thick;
+  color:#AAAAAA;
 }
 
-.new {
-  border-color: red;
+a{
+  font-family: "Merriweather", serif;
+  margin: 30px 40px;
+  text-decoration: none;
 }
 
-#old {
-  border-color: green;
+a:hover{
+  color:#E7F6F2;
+}
+
+
+.footer-link{
+  color: #11999E;
+}
+
+
+.top-container {
+  background-color: #E7F6F2;
+  padding-top: 100px;
+}
+
+
+
+.pro{
+  text-decoration: underline;
+}
+.bottom-cloud{
+  position:absolute;
+  left:100px;
+  bottom:150px;
+
+}
+.top-cloud{
+  position:absolute;
+  right:200px;
+  top:50px;
+}
+
+.skill-row{
+  margin:100px auto 100px auto;
+  width:50%;
+  text-align: left;
+}
+
+.picture{
+  margin: 30px auto 0 auto;
+  width: 25%;
+}
+
+.binary-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coding-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile{
+  width: 50%;
+  margin: 20px auto 20px auto;
+}
+
+.headerclass{
+  margin: 20px auto 10px auto;
+}
+
+.paragraph-line{
+  color: #40514E;
+}
+
+.contact-me{
+  margin: 2rem auto;
+  width:50%
+}
+
+.lastpara{
+  margin: 0 auto 60px auto;
+}
+
+.btn{
+  margin: 0 auto 80px auto;
+  font-family: "Merriweather", serif;
+  background-color: #11cdd4;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 7%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #30e3cb;
+}
+
+.bottom-container{
+  margin:100px auto 0 auto;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+.lastmsg{
+  font-size: 0.800rem;
+  padding: 30px 0 0;
+  color: #E7F6F2;
+
 }
