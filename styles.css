@@ -57,21 +57,20 @@ a:hover{
   padding-top: 100px;
 }
 
-
-
 .pro{
   text-decoration: underline;
 }
+
 .bottom-cloud{
   position:absolute;
-  left:100px;
-  bottom:150px;
+  left:6.25rem;
+  bottom:9.375rem;
 
 }
 .top-cloud{
   position:absolute;
-  right:200px;
-  top:50px;
+  right:12.5rem;
+  top:3.125rem;
 }
 
 .skill-row{
